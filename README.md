@@ -18,33 +18,10 @@
 
 <br>
 
-### Избранные проекты
+### Репозитории
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-credit-scoring-dark-908fa71e.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-credit-scoring-light-11e0a4b9.svg">
-  <img alt="Кредитный скоринг — macro-F1 0.71, XGBoost" src="assets/card-credit-scoring-dark-908fa71e.svg" width="100%">
-</picture>
-
-Прогноз исхода кредитной заявки (4 класса) для 51 336 клиентов: объединение двух таблиц, балансировка классов, подбор гиперпараметров. На отложенной выборке XGBoost даёт macro-F1 0.71 и accuracy 0.80 против 0.50 и 0.56 у логистической регрессии. [Код →](https://github.com/pv-afk/Projects/tree/main/credit-scoring)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-lead-prioritization-dark-28115ce4.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-lead-prioritization-light-d2313413.svg">
-  <img alt="Приоритизация обращений — Daily AP 0.760 на отложенной выборке" src="assets/card-lead-prioritization-dark-28115ce4.svg" width="100%">
-</picture>
-
-Ранжирование обращений по вероятности целевого действия в течение пяти дней. Признаки строятся только по событиям до момента назначения; финальный ансамбль — LightGBM и CatBoost. Прирост +0.020 к базовой модели на отложенной по времени выборке; результат на скрытом тесте неизвестен. [Код →](https://github.com/pv-afk/Projects/tree/main/lead-prioritization)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-product-matching-dark-d33125ca.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-product-matching-light-01ad1b0a.svg">
-  <img alt="Сопоставление товаров — F1 0.69, символьные 5-граммы" src="assets/card-product-matching-dark-d33125ca.svg" width="100%">
-</picture>
-
-Поиск одинаковых препаратов в трёх прайс-листах с разной записью названий: параметрический ключ (дозировка, объём, фасовка) против сходства Жаккара по символьным N-граммам с подбором порога. [Код →](https://github.com/pv-afk/Projects/tree/main/pharmacy-analysis)
-
-Остальные проекты — прогнозирование временных рядов, оптимизация ИТ-портфеля — в репозитории [Projects](https://github.com/pv-afk/Projects), учебные ноутбуки — в [ML-AI](https://github.com/pv-afk/ML-AI).
+**[Projects](https://github.com/pv-afk/Projects)** — прикладные проекты Data Science: кредитный скоринг, ранжирование, прогнозирование временных рядов.<br>
+**[ML-AI](https://github.com/pv-afk/ML-AI)** — машинное обучение и AI: учебные ноутбуки от регрессии до поиска контекста для LLM.
 
 <br>
 
