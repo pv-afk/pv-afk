@@ -31,6 +31,7 @@ Machine learning for localizing the epileptogenic zone from stereo-EEG. Co-autho
 <br><br>
 
 <a id="selected-work"></a>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/section-02-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/section-02-light.svg">
