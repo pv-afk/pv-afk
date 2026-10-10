@@ -37,23 +37,35 @@ Machine learning for localizing the epileptogenic zone from stereo-EEG. Co-autho
   <img alt="02 — Selected Work" src="assets/section-02-dark.svg" width="100%">
 </picture>
 
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/credit-scoring"><img alt="Credit Scoring — XGBoost macro-F1 0.71 vs 0.50 for Logistic Regression" src="assets/card-credit-scoring-dark.svg#gh-dark-mode-only" width="100%"></a>
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/credit-scoring"><img alt="Credit Scoring — XGBoost macro-F1 0.71 vs 0.50 for Logistic Regression" src="assets/card-credit-scoring-light.svg#gh-light-mode-only" width="100%"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-credit-scoring-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-credit-scoring-light.svg">
+  <img alt="Credit Scoring — XGBoost macro-F1 0.71 vs 0.50 for Logistic Regression" src="assets/card-credit-scoring-dark.svg" width="100%">
+</picture>
 
 Two joined credit-bureau tables → stratified split, imputation and one-hot encoding, class rebalancing, `RandomizedSearchCV` for Logistic Regression vs XGBoost. XGBoost reaches **macro-F1 0.71 / accuracy 0.80** on 10,268 held-out applicants (LogReg: 0.50 / 0.56). → [notebook](https://github.com/pv-afk/pv_afk/tree/main/projects/credit-scoring)
 
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/lead-prioritization"><img alt="Lead Prioritization — Daily Average Precision 0.760 vs 0.740 baseline on a local temporal holdout" src="assets/card-lead-prioritization-dark.svg#gh-dark-mode-only" width="100%"></a>
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/lead-prioritization"><img alt="Lead Prioritization — Daily Average Precision 0.760 vs 0.740 baseline on a local temporal holdout" src="assets/card-lead-prioritization-light.svg#gh-light-mode-only" width="100%"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-lead-prioritization-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-lead-prioritization-light.svg">
+  <img alt="Lead Prioritization — Daily Average Precision 0.760 vs 0.740 baseline on a local temporal holdout" src="assets/card-lead-prioritization-dark.svg" width="100%">
+</picture>
 
 Avito DS Bootcamp. Only events before assignment time (`event_ts < assignment_ts`), recency and multi-window activity features (6 h – 60 d), a blend of two LightGBM variants, CatBoost and the base ensemble. **Daily AP 0.739 / 0.760** vs 0.714 / 0.740 baseline on two sequential local holdouts; the hidden test score is not known. → [code](https://github.com/pv-afk/pv_afk/tree/main/projects/lead-prioritization)
 
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/pharmacy-analysis"><img alt="Product Matching — best F1 0.69 with character 5-grams and Jaccard threshold 0.50" src="assets/card-product-matching-dark.svg#gh-dark-mode-only" width="100%"></a>
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/pharmacy-analysis"><img alt="Product Matching — best F1 0.69 with character 5-grams and Jaccard threshold 0.50" src="assets/card-product-matching-light.svg#gh-light-mode-only" width="100%"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-product-matching-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-product-matching-light.svg">
+  <img alt="Product Matching — best F1 0.69 with character 5-grams and Jaccard threshold 0.50" src="assets/card-product-matching-dark.svg" width="100%">
+</picture>
 
 Parametric keys (dose, volume, pack size via regex) vs character n-gram Jaccard similarity, with the threshold tuned on precision / recall / F1. Best: **F1 0.69** (n = 5, threshold 0.50); the write-up argues for a hybrid of both. → [notebook](https://github.com/pv-afk/pv_afk/tree/main/projects/pharmacy-analysis)
 
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/average-salary"><img alt="Salary Forecast — SARIMAX on 399 monthly observations with a 36-month horizon" src="assets/card-salary-forecast-dark.svg#gh-dark-mode-only" width="100%"></a>
-<a href="https://github.com/pv-afk/pv_afk/tree/main/projects/average-salary"><img alt="Salary Forecast — SARIMAX on 399 monthly observations with a 36-month horizon" src="assets/card-salary-forecast-light.svg#gh-light-mode-only" width="100%"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-salary-forecast-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-salary-forecast-light.svg">
+  <img alt="Salary Forecast — SARIMAX on 399 monthly observations with a 36-month horizon" src="assets/card-salary-forecast-dark.svg" width="100%">
+</picture>
 
 Full statistical cycle: Box-Cox, seasonal differencing, `auto_arima` search, SARIMAX(6,1,2)(0,1,0)[12], inverse transform and a 36-month forecast. → [notebook](https://github.com/pv-afk/pv_afk/tree/main/projects/average-salary)
 

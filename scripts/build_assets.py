@@ -118,7 +118,6 @@ def card_shell(c, idx, domain, title, subtitle, stack, metric, metric_label, del
     if delta:
         b.append(text(1152, 198, delta, "mono-600", 14, c["accent"], "end", ls=1))
     b.append(chart)
-    b.append(text(1152, 296, "source ↗", "mono-400", 14, c["accent"], "end", ls=1))
     return H, "\n".join(b)
 
 

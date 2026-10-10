@@ -38,5 +38,4 @@
 <rect x="726" y="92" width="10" height="10" fill="#0A8EA0"/>
 <text x="742" y="101" class="mono-400" font-size="12" fill="#5A6476" text-anchor="start">XGBoost</text>
 <text x="630" y="76" class="mono-400" font-size="11" fill="#9AA3B2" text-anchor="start" letter-spacing="1">F1 PER CLASS · TEST n=10,268</text>
-<text x="1152" y="296" class="mono-400" font-size="14" fill="#0A8EA0" text-anchor="end" letter-spacing="1">source ↗</text>
 </svg>
