@@ -1,12 +1,14 @@
 ### Hi, I'm Pavel 👋
 
-ML engineer & AI researcher. I turn noisy signals into honest probabilities —<br>
-in credit portfolios and in the human brain.
+ML Engineer & AI Researcher.
+
+Exploring the intersection of machine learning,
+large language models, and computational neuroscience.
 
 ```python
 pavel = {
-    "builds":   "credit risk models",
-    "explores": "computational neuroscience · stereo-EEG",
-    "believes": "a calibrated 0.7 beats a confident 1.0",
+    "builds":   "ML & AI systems",
+    "explores": "LLMs · RAG · computational neuroscience",
+    "believes": "grounded answers beat confident hallucinations",
 }
 ```
